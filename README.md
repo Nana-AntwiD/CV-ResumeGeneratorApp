@@ -1,1 +1,3 @@
-"# CV-ResumeGeneratorApp" 
+# React + Vite
+
+Cv Regenerator React App
