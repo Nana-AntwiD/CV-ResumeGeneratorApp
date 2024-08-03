@@ -1,0 +1,29 @@
+/* src/styles/GeneralInfo.css */
+
+.general-info {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.general-info h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #007bff;
+  text-align: center;
+}
+
+.general-info input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}

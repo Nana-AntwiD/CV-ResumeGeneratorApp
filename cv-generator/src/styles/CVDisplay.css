@@ -1,0 +1,59 @@
+/* src/styles/CVDisplay.css */
+
+.cv-display {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.cv-display h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #007bff;
+}
+
+.cv-display h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #343a40;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+}
+
+.cv-display p {
+  margin: 10px 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.cv-display .general-info,
+.cv-display .education,
+.cv-display .experience {
+  margin-bottom: 20px;
+}
+
+.cv-display .education-item,
+.cv-display .experience-item {
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.cv-display .education-item p,
+.cv-display .experience-item p {
+  margin: 5px 0;
+}
+
+.cv-display .education-item strong,
+.cv-display .experience-item strong {
+  color: #007bff;
+}

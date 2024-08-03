@@ -1,0 +1,79 @@
+/* src/styles/Experience.css */
+
+.experience {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.experience h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #007bff;
+  text-align: center;
+}
+
+.experience input,
+.experience textarea {
+  display: block;
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.experience input:focus,
+.experience textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.experience input::placeholder,
+.experience textarea::placeholder {
+  color: #adb5bd;
+}
+
+.experience button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.experience button:hover {
+  background-color: #0056b3;
+}
+
+.experience-list {
+  margin-top: 20px;
+}
+
+.experience-item {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.experience-item p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.experience-item strong {
+  color: #007bff;
+}
